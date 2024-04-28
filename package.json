@@ -1,0 +1,20 @@
+{
+    "name": "my-project",
+    "source": "src/index.html",
+    "scripts": {
+        "start": "parcel",
+        "build": "parcel build"
+    },
+    "devDependencies": {
+        "buffer": "^6.0.3",
+        "cssnano": "^6.1.2",
+        "parcel": "latest",
+        "postcss": "^8.4.38",
+        "stream-http": "^3.2.0",
+        "worker-loader": "^2.0.0"
+    },
+    "browserslist": "> 0.25%, not dead",
+    "dependencies": {
+        "pdfjs-dist": "^4.1.392"
+    }
+}
